@@ -1,0 +1,11 @@
+@font-face{
+    font-family:"sf-pro";
+    src: url(/s2/style/font/SF-Pro-Display-Black.otf);
+}
+/* windows segoe   ui */
+@media  screen and (min-width :400px) {
+   html{
+    font-size:130%;
+   } 
+    
+}
