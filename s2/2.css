@@ -9,3 +9,23 @@
    } 
     
 }
+.div-img{
+    display: flex;
+    justify-content:center;
+}
+.img{
+    margin: 10px;
+    width: 100px;
+    border-radius: 16px;
+    box-shadow: 10px10px 10px 10px;
+    height: 100px;
+    filter:saturate(20% ) blur(0.5px);
+}
+.img:hover {
+filter: blur(0);
+width: 120px;
+height: 120px;
+
+  
+    /* clip-path: polygon(10% 45%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 45%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%); */
+}
