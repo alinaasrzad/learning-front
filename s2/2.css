@@ -29,3 +29,35 @@ box-shadow: 30px;
   
     /* clip-path: polygon(10% 45%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 45%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%); */
 }
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;}
+
+input[type='text'],
+input[type='email']{
+    border-radius: 5px;
+    border: 1px solid rgb(155, 17, 135);
+    padding:0.5rem  0.7rem ;
+    transition: border-color 0.15s, box-shadow 0.35s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border-color:darkblue;
+    box-shadow: 0 0 0 4px rgba(24, 117, 255,0.25);
+    outline: 0;
+}
+label{
+    display: block;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+button{
+    background-color: #0540c0;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: azure;
+    font-family: cursive;
+    padding: 0.5rem 0.7rem;
+}
