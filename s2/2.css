@@ -67,11 +67,11 @@ button{
   }
   
   /* This changes all the animations globally */
-  :root {
+  /* :root {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
   }
   @keyframes example {
     from {background-color: red;}
     to {background-color: yellow;}
-  }
+  } */
