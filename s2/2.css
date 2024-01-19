@@ -10,8 +10,8 @@
     
 }
 .div-img{
-    display: flex;
-    justify-content:center;
+    display:flex;
+    justify-content:start;
 }
 .img{
     margin: 10px;
@@ -30,8 +30,16 @@ transition:0.15s 0.15s;
   
     /* clip-path: polygon(10% 45%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 45%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%); */
 }
-body{
+.head{
+    font-size: larger;
+    display:flex;  
+      text-align: justify;
 
+}
+body{
+    /* display:flex; */
+  justify-content: center;
+  align-items: center;
     font-family: 'Arial Narrow Bold', sans-serif;}
 
 input[type='text'],
@@ -82,7 +90,10 @@ button{
   3.scale()
   4.translate() */
   .box{
+   
     width: 100px  ;
+   
     height: 100px;
     background:#0540c0  ;
+   
   }
