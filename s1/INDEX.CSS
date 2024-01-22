@@ -1,0 +1,12 @@
+*{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .box{
+    width: 100%px;
+    border-radius: 20px;
+    background-color: #343452;
+} */
+.h1-head{
+    color: antiquewhite;
+}
