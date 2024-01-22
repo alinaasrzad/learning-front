@@ -75,6 +75,10 @@ button{
 .animate__animated.animate__bounce {
     --animate-duration: 2s;
   }
+  fieldset{
+    border-radius: 20px;
+    border-top: 1px;
+  }
   
   /* This changes all the animations globally */
   /* :root {
@@ -120,4 +124,7 @@ button{
      /* navigation bar */
      div.nav > ul.item >li{
       
+     }
+     .text2{
+      font-style: bold;
      }
