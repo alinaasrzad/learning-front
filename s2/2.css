@@ -1,8 +1,8 @@
-@font-face{
+ @font-face{
     font-family:"sf-pro";
     src: url(/s2/style/font/SF-Pro-Display-Black.otf);
-}
-/* windows segoe   ui */
+} 
+ /* windows segoe   ui */
 @media  screen and (min-width :400px) {
    html{
     font-size:100%;
@@ -68,7 +68,7 @@ button{
     height: 40px;
     border-radius: 5px;
     border: none;
-    color: azure;
+    color: rgb(255, 255, 255);
     font-family: cursive;
     padding: 0.5rem 0.7rem;
 }
@@ -77,11 +77,13 @@ button{
   }
   fieldset{
     border-radius: 20px;
-    border-top: 1px;
+    box-shadow: inherit;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
   }
   
-  /* This changes all the animations globally */
-  /* :root {
+  This changes all the animations globally */
+  :root {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
   }
@@ -90,7 +92,7 @@ button{
     to {background-color: yellow;}
   } */
 
-  /* 1.skew()
+ /* 1.skew()
   2.rotate()
   3.scale()
   4.translate() */
@@ -105,9 +107,9 @@ button{
     
 
   }
-  /* basic styles */
+   basic styles
     *{
-      box-sizing: border-box;
+      box-sizing: border-box; 
 
     }
     html{
@@ -127,4 +129,10 @@ button{
      }
      .text2{
       font-style: bold;
-     }
+     } 
+ 
+    
+    .hero {
+      width: 30px;
+      display: flex;
+    } 
