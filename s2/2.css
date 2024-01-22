@@ -37,6 +37,7 @@ transition:0.15s 0.15s;
 
 }
 body{
+    height: 100vh;
     /* display:flex; */
   justify-content: center;
   align-items: center;
@@ -90,10 +91,13 @@ button{
   3.scale()
   4.translate() */
   .box{
-   
-    width: 100px  ;
-   
+    width: 100px;
     height: 100px;
-    background:#0540c0  ;
-   
+
+ 
+  }
+  .box:hover{ 
+    transform:translate(-10px);
+    
+
   }
