@@ -107,7 +107,7 @@ button{
     
 
   }
-   basic styles
+   /* basic styles */
     *{
       box-sizing: border-box; 
 
@@ -148,4 +148,7 @@ button{
     }
     .sign{
       white-space: nowrap;
+    }
+    .head-btn{
+     justify-content: center;
     }

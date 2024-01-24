@@ -1,13 +1,25 @@
 *{
-    display:flex;
+    /* background-color: #240245; */
+   display: grid;
     justify-content: center;
     font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ;
 }
-/* .box{
-    width: 100%px;
+.box{
+    width: 1080px;
     border-radius: 20px;
-    background-color: #343452;
-} */
+    background-color: #161635;
+    box-shadow: 5px 5px #515151 ;
+}
 .h1-head{
-    color: rgb(122, 74, 10);
+    color: rgb(181, 170, 154);
+    background: color 0;
+}
+.img-ig{
+    width: 30px;
+    height: 30px;
+}
+h2{
+    color:#dedede;
+    /* width: 40px; */
+    
 }
