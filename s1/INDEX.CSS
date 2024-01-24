@@ -1,6 +1,7 @@
 *{
-    display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ;
 }
 /* .box{
     width: 100%px;
@@ -8,5 +9,5 @@
     background-color: #343452;
 } */
 .h1-head{
-    color: antiquewhite;
+    color: rgb(122, 74, 10);
 }

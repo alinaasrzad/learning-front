@@ -136,3 +136,16 @@ button{
       width: 30px;
       display: flex;
     } 
+    :root{
+      --color-primary:#2d1d2d;
+      --color-secondary:#2353ae;
+      --color-font:#ebebeb;
+      --color-btn:#71710c;
+      
+    }
+    body{
+      color : var(--color-primary)
+    }
+    .sign{
+      white-space: nowrap;
+    }
