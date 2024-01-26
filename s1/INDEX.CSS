@@ -4,14 +4,19 @@
     justify-content: center;
     font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ;
 }
+body{
+    background-color: #141642;
+}
 .box{
     width: 1080px;
+    border-left-style:ridge;
+    border-right-style:dotted;
     border-radius: 20px;
     background-color: #161635;
-    box-shadow: 5px 5px #515151 ;
+    /* box-shadow: 5px 5px #515151 ; */
 }
 .h1-head{
-    color: rgb(181, 170, 154);
+    color: rgb(193, 190, 184);
     background: color 0;
 }
 .img-ig{
