@@ -22,9 +22,16 @@ body{
 .img-ig{
     width: 30px;
     height: 30px;
+    margin: 0  1rem;
+    /* 0 = vrical  1rem = horizontal */
 }
 h2{
     color:#dedede;
     /* width: 40px; */
     
 }
+/* @media  screen and (min-width:768px) {
+    .h2{
+
+    }
+} */
