@@ -1,0 +1,55 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background: #beb4ff;
+}
+.box {
+    box-shadow:30px inset mediumblue;
+  border-radius: 30px;
+  margin-left: 50rem;
+  margin-top: 12rem;
+  width: 500px;
+  height: 500px;
+  background-color: #02072df2;
+}
+.box h1{
+    margin-top: 3rem;
+}
+.box #result {
+    color: beige;
+   
+  margin-left: 12rem;
+}
+.box .numbers input {
+    
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+}
+.box .numbers {
+    color: rgb(224, 224, 224)   ;
+    font-weight: 600;
+    font-size: x-large;
+  margin-left: 6rem;
+  width: 190px;
+}
+.box .inputs input {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+   border : none;
+   box-shadow:grey;
+  margin-left: 8rem;
+  font-size: x-large    ;
+  font-weight: 700;
+}
+.box .inputs .Sum{
+background: #008a1c;
+color: aliceblue;
+}
+.box .inputs .min{
+background: #ff6565;
+color: aliceblue;
+}
